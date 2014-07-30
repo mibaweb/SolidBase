@@ -1,6 +1,5 @@
 # Landing Strip
 - Put all possible additions, questions, and changes being contemplated here.
-
 - Minimization on build (instead of dev).  Put into a new, seperate folder?
 - Explain sub-scss folders/files.
 - Add grid file.
@@ -9,18 +8,18 @@
 
 
 # Preperation
--. Copy base folder to new project location.
--. Change folder name to new project name.
--. Enter new project settings into "package.json" file.
--. Install Ruby on machine.
--. Install Node.JS on machine.
--. Install Git on machine, select option to run from Windows CMD.
+- Copy base folder to new project location.
+- Change folder name to new project name.
+- Enter new project settings into "package.json" file.
+- Install Ruby on machine.
+- Install Node.JS on machine.
+- Install Git on machine, select option to run from Windows CMD.
 
 *I recommend using PowerShell for the rest.*
--. Run "npm install -g bower".
--. Run "npm install -g grunt-cli".
--. Run "npm install grunt-contrib-sass --save-dev".
--. Run "npm install grunt-contrib-watch --save-dev"
+- Run "npm install -g bower".
+- Run "npm install -g grunt-cli".
+- Run "npm install grunt-contrib-sass --save-dev".
+- Run "npm install grunt-contrib-watch --save-dev"
 
 # To Run
 Run "grunt".
@@ -88,14 +87,14 @@ Run "grunt".
 ### modules
 - Contains the styling for the different elements that websites are composed of.  Inputs, typography.  Mainly predefined elements, not classes or ids.
 
-## pages
+### pages
 - Contains the styling for each individual page.  Starts with the basic index.scss for the initial home page.
 
-## partials
+### partials
 - Contain the different sections of the site such as the header, footer, and nav.
 
-## vendor
+### vendor
 - Contains vendor scss.
 
-## style.scss
+### style.scss
 - The main style sheet that all .SCSS files located in this directory will compile into, EXCEPT the pages subdirectory, because you do not want to load all of the CSS for every single page at once.  Load it when the user goes to that specific page.
