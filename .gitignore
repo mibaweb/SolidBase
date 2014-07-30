@@ -41,3 +41,4 @@ CONTRIBUTING.md
 Gemfile
 Gemfile.lock
 .sass-cache
+.sass-cache/*
