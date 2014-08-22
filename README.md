@@ -1,12 +1,3 @@
-# Landing Strip
-- Put all possible additions, questions, and changes being contemplated here.
-- Minimization on build (instead of dev).  Put into a new, seperate folder?
-- Explain sub-scss folders/files.
-- Add grid file.
-- Use Bower to install JQuery and FontAwesome and all that jazz.  But 'base' shouldn't include these as every project might not use them.  So only remark that it is possible with bower and that is why it is installed.   Include Modernizr and Normalize?
-- Should Bower install somewhere other than outside the "app" directory?
-
-
 # Preperation
 - Copy base folder to new project location.
 - Change folder name to new project name.
